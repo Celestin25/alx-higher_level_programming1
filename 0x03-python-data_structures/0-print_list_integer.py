@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-
-if __name__ == "__main__":
-    from add_0 import add
-
-    a = 1
-    b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+def print_list_integer(my_list=[]):
+    for i in range(len(my_list)):
+        print("{:d}".format(my_list[i]))
